@@ -3,7 +3,7 @@ import jieba
 import re
 
 stopwords = []
-with open("data/stopwords.txt", "r", encoding="utf8") as f:
+with open("/root/nas/chinese-sentiment-analysis/data/stopwords.txt", "r", encoding="utf8") as f:
     for w in f:
         stopwords.append(w.strip())
 
